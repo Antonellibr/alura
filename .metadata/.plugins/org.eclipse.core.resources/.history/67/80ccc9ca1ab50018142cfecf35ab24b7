@@ -1,0 +1,14 @@
+
+public class TesteConexao {
+
+	public static void main(String[] args) {
+		
+		try {
+			Conexao con = new Conexao(); 
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+
+	}
+
+}

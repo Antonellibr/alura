@@ -1,0 +1,12 @@
+
+public class CalculadorImposto implements Tributavel {
+
+	private double valor;
+	
+	@Override
+	public void getValorImposto(double valor) {
+		this.valor = valor;
+		
+	}
+	
+}

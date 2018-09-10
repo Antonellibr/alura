@@ -1,0 +1,10 @@
+
+public class CalculadorImposto implements Tributavel {
+	
+	private int valor;
+	
+	public void getValorImposto(int valor){
+		this.valor = valor;
+	}
+
+}

@@ -1,0 +1,8 @@
+//Gerente e um Funcionario, Gerente herda da class Funcionario, assina Autenticavel.
+public class Gerente extends Funcionario {
+	
+	public double getBonificacao(){
+		System.out.println("Chamando o metodo de bonificacao do Gerente");
+		return super.getSalario(); //super.getBonificacao() + super.getSalario();
+	}
+}

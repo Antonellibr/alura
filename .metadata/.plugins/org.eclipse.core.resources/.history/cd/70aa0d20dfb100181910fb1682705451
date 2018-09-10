@@ -1,0 +1,49 @@
+
+//nao pode instanciar objetos dessa classe, pq é abstrata.
+public abstract class Funcionario {
+	
+	private String nome;
+	private String cpf;
+	private double salario; // protected - publico para os filhos.
+	private int senha = 2222;
+	
+	public void autentica(Gerente g){
+		boolean autenticou = g.autentica(this.senha);
+		if (autenticou){
+			System.out.println("Autenticado: Pode entrar no sistema!");
+		} else {
+			System.out.println("Não pode entrar no sistema!");
+		}
+	}
+	
+	//metodo sem corpo, implementacao nos filhos.
+	public abstract double getBonificacao(); /*{
+		//System.out.println("Chamando o metodo de bonificacao do Funcionario");
+		return this.salario * 0.05;
+	}*/
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public String getCpf() {
+		return cpf;
+	}
+	
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
+	public double getSalario() {
+		return salario;
+	}
+	
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	
+}
