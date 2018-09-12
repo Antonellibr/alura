@@ -1,0 +1,20 @@
+package banco.teste;
+
+public class TesteSaca {
+
+	public static void main(String[] args) {
+		banco.modelo.Conta conta = new banco.modelo.ContaCorrente(123, 321);
+		
+		conta.deposita(200.0);
+		
+		try {
+			conta.saca(210.0);
+		} catch (banco.modelo.SaldoInsuficienteException ex) {
+			//ex.printStackTrace();
+			System.out.println("Ex: " + ex.getMessage());
+		}
+		
+		System.out.println(conta.getSaldo());
+
+	}
+}

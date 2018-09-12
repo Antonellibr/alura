@@ -1,0 +1,19 @@
+package banco.teste;
+
+public class TesteTributaveis {
+
+	public static void main(String[] args) {
+		
+		banco.modelo.ContaCorrente cc = new banco.modelo.ContaCorrente(222, 333);
+		cc.deposita(100);
+		
+		banco.modelo.SeguroDeVida seguro = new banco.modelo.SeguroDeVida();		
+		
+		banco.modelo.CalculadorDeImposto calc = new banco.modelo.CalculadorDeImposto();
+		calc.registra(cc);
+		calc.registra(seguro);
+		
+		System.out.println(calc.getTotalImposto());
+		
+	}
+}
