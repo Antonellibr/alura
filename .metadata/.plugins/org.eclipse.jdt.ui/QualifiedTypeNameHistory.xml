@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="Conta"/>
 <fullyQualifiedTypeName name="FuncionarioTeste"/>
 <fullyQualifiedTypeName name="ControleBonificacao"/>
 <fullyQualifiedTypeName name="ContaPoupanca"/>
@@ -14,7 +13,28 @@
 <fullyQualifiedTypeName name="Gerente"/>
 <fullyQualifiedTypeName name="AutenticacaoUtil"/>
 <fullyQualifiedTypeName name="Tributavel"/>
-<fullyQualifiedTypeName name="ContaCorrente"/>
 <fullyQualifiedTypeName name="SeguroDeVida"/>
 <fullyQualifiedTypeName name="CalculadorDeImposto"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="MinhaExcecao"/>
+<fullyQualifiedTypeName name="Conta"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="ContaCorrente"/>
+<fullyQualifiedTypeName name="SaldoInsuficienteException"/>
+<fullyQualifiedTypeName name="Conexao"/>
+<fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+<fullyQualifiedTypeName name="modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="modelo.SaldoInsuficienteException"/>
+<fullyQualifiedTypeName name="modelo.Conta"/>
+<fullyQualifiedTypeName name="modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="modelo.SeguroDeVida"/>
+<fullyQualifiedTypeName name="modelo.CalculadorDeImposto"/>
+<fullyQualifiedTypeName name="banco.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="banco.modelo.SeguroDeVida"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.CalculadorDeImposto"/>
+<fullyQualifiedTypeName name="banco.modelo.SaldoInsuficienteException"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.especial.ContaEspecial"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

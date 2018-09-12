@@ -829,3 +829,203 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jdt.launching 4 124 2018-09-10 11:16:19.350
 !MESSAGE Launch configuration PGJDBCMain references closed project greenplum
+!SESSION 2018-09-10 16:01:13.796 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/dev/workspace-alura/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-09-10 16:01:20.509
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-10 16:01:24.453
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\digiage'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2018-09-10 16:22:10.382
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2018-09-10 16:22:10.382
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.382
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.9.0.20180606-2036 (org.eclipse.m2e.logback.feature.feature.group 1.9.0.20180606-2036)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.382
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.9.0.20180606-2036 (org.eclipse.m2e.core 1.9.0.20180606-2036) requires 'bundle com.google.guava [21.0.0,22.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.382
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.382
+!MESSAGE From: Maven Integration for Eclipse 1.9.0.20180606-2036 (org.eclipse.m2e.core.ui 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.382
+!MESSAGE To: bundle org.eclipse.m2e.core [1.9.0,1.10.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.382
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.382
+!MESSAGE From: m2e logback appender 1.9.0.20180606-2036 (org.eclipse.m2e.logback.appender 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.382
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.9.0,1.10.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.382
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.382
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.9.0.20180606-2036 (org.eclipse.m2e.logback.feature.feature.group 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.382
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.9.0.20180606-2036]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2018-09-10 16:22:10.586
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2018-09-10 16:22:10.586
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.586
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.9.0.20180606-2036 (org.eclipse.m2e.logback.feature.feature.group 1.9.0.20180606-2036)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.586
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.9.0.20180606-2036 (org.eclipse.m2e.core 1.9.0.20180606-2036) requires 'bundle com.google.guava [21.0.0,22.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.586
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.586
+!MESSAGE From: Maven Integration for Eclipse 1.9.0.20180606-2036 (org.eclipse.m2e.core.ui 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.586
+!MESSAGE To: bundle org.eclipse.m2e.core [1.9.0,1.10.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.586
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.586
+!MESSAGE From: m2e logback appender 1.9.0.20180606-2036 (org.eclipse.m2e.logback.appender 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.586
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.9.0,1.10.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.586
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.586
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.9.0.20180606-2036 (org.eclipse.m2e.logback.feature.feature.group 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.586
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.9.0.20180606-2036]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2018-09-10 16:22:10.730
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2018-09-10 16:22:10.730
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.730
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.9.0.20180606-2036 (org.eclipse.m2e.logback.feature.feature.group 1.9.0.20180606-2036)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.730
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.9.0.20180606-2036 (org.eclipse.m2e.core 1.9.0.20180606-2036) requires 'bundle com.google.guava [21.0.0,22.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.730
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.730
+!MESSAGE From: Maven Integration for Eclipse 1.9.0.20180606-2036 (org.eclipse.m2e.core.ui 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.730
+!MESSAGE To: bundle org.eclipse.m2e.core [1.9.0,1.10.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.730
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.730
+!MESSAGE From: m2e logback appender 1.9.0.20180606-2036 (org.eclipse.m2e.logback.appender 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.730
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.9.0,1.10.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.730
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.730
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.9.0.20180606-2036 (org.eclipse.m2e.logback.feature.feature.group 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.730
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.9.0.20180606-2036]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2018-09-10 16:22:10.738
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2018-09-10 16:22:10.738
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.738
+!MESSAGE Software being installed: m2e - slf4j over logback logging (Optional) 1.9.0.20180606-2036 (org.eclipse.m2e.logback.feature.feature.group 1.9.0.20180606-2036)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.738
+!MESSAGE Missing requirement: Maven Integration for Eclipse 1.9.0.20180606-2036 (org.eclipse.m2e.core 1.9.0.20180606-2036) requires 'bundle com.google.guava [21.0.0,22.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.738
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.738
+!MESSAGE From: Maven Integration for Eclipse 1.9.0.20180606-2036 (org.eclipse.m2e.core.ui 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.738
+!MESSAGE To: bundle org.eclipse.m2e.core [1.9.0,1.10.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.738
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.738
+!MESSAGE From: m2e logback appender 1.9.0.20180606-2036 (org.eclipse.m2e.logback.appender 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.738
+!MESSAGE To: bundle org.eclipse.m2e.core.ui [1.9.0,1.10.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-09-10 16:22:10.738
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.738
+!MESSAGE From: m2e - slf4j over logback logging (Optional) 1.9.0.20180606-2036 (org.eclipse.m2e.logback.feature.feature.group 1.9.0.20180606-2036)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-09-10 16:22:10.738
+!MESSAGE To: org.eclipse.m2e.logback.appender [1.9.0.20180606-2036]
+!SESSION 2018-09-10 16:24:27.509 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/C:/dev/workspace-alura/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-09-10 16:24:41.317
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-10 16:24:44.273
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\digiage'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-10 16:40:50.649
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-10 16:40:50.649
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2018-09-11 09:09:11.664 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-09-11 09:09:28.617
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-11 09:09:37.762
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\digiage'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-11 14:42:57.684
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-11 14:42:57.686
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-11 15:09:52.953
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-11 15:09:52.954
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2018-09-12 08:54:11.785 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-09-12 08:54:57.230
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-12 08:55:05.883
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\digiage'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-12 09:26:33.182
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-12 09:26:33.184
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
