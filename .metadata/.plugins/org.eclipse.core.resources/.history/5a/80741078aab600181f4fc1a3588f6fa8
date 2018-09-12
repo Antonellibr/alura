@@ -1,0 +1,26 @@
+package br.com.bytebank.banco.teste;
+
+public class Teste {
+
+	//Array
+	public static void main(String[] args) {
+		
+		int [] idades = new int[5];		
+		
+		idades[0] = 29;
+		idades[1] = 39;
+		idades[2] = 19;
+		idades[3] = 69;
+		idades[4] = 59;
+		
+		System.out.println(idades[0]);
+		
+		int idade1 = 29;
+		int idade2 = 39;
+		int idade3 = 19;
+		int idade4 = 69;
+		int idade5 = 59;
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.ContaCorrente;
+
+public class TesteArrayDeReferencia {
+	
+	public static void main(String[] args) {
+		
+		// int[] idades = new int[5];
+		ContaCorrente[] cc = new ContaCorrente[5];
+		
+	}
+
+}

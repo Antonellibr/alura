@@ -34,7 +34,10 @@
 <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.CalculadorDeImposto"/>
 <fullyQualifiedTypeName name="banco.modelo.SaldoInsuficienteException"/>
 <fullyQualifiedTypeName name="br.com.bytebank.banco.especial.ContaEspecial"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.GuardadorDeContas"/>
 <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
 <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
